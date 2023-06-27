@@ -6,15 +6,14 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-//добавили необходимые аннотации
 @Setter
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
-public class ContactDto { // а тут передаем параметры, которые содержатся в схемах в сваггере
+public class PhoneDto {
     int id;
-    String firstName;
-    String lastName;
-    String description;
+    String countryCode;
+    String phoneNumber;
+    int contactId;
 }

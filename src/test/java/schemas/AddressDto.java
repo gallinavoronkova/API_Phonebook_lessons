@@ -20,4 +20,3 @@ public class AddressDto {
     String zip;
     int contactId;
 }
-

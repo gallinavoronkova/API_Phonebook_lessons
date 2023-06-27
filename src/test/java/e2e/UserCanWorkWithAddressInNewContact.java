@@ -72,7 +72,6 @@ public class UserCanWorkWithAddressInNewContact {
             Assert.assertEquals(actualResult, expectedResult, actualResult + "not equals" + expectedResult);
         }
 
-
         //Add delete address
         address.deleteAddress(200, addressId);
 
